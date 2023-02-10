@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: #1F2937;
+    padding: 20px 120px 0px 120px;
+    height: 40px;
+    margin-top: -10px;
+    color: white;
+}
+
+.header > div {
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+    padding: 80px 120px;
+    gap: 20px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.hero > div {
+    flex: 1;
+}
+
+.hero > .hero-right {
+    flex: 1.5;
+}
+
+.hero-text {
+    font-size: 20px;
+    font-variant: light;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.description {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 120px;
+    gap: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.redirections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.redirections > div {
+    width: 280px;
+    height: 280px;
+}
+
+.citation {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px;
+    gap: 20px;
+    background-color: #e5e7eb;
+}
+
+.citation-text {
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(67, 67, 67);
+    font-style: italic;
+    line-height: 30px;
+}
+
+
+.citation-author  {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin-left: 400px;
+}
+
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    height: 100px;
+    padding: 80px 160px;
+    gap: 20px;
+    
+}
+
+.CTA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 240px;
+    padding: 10px 0px;
+    background-color: #3882f6;
+    width: 800px;
+}
+
+.CTA > .CTA-left > p {
+    margin-top: -16px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #1F2937;
+    color: white;
+}
+
